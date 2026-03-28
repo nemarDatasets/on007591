@@ -19,5 +19,10 @@
     ],
     "ReferencesAndLinks": [
         "https://doi.org/10.1101/2024.05.09.591996"
+    ],
+    "HowToAcknowledge": "Please cite the following paper (doi: https://doi.org/10.1101/2024.05.09.591996) and this dataset using its OpenNeuro DOI.",
+    "EthicsApprovals": [
+        "Shiba Palace Clinic Ethics Review Committee",
+        "Declaration of Helsinki"
     ]
 }
