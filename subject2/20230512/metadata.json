@@ -1,0 +1,16 @@
+{
+    "backup_calibrated_1": {
+        "task": "minimally overt"
+    },
+    "backup_calibrated_2": {
+        "task": "overt"
+    },
+    "backup_online_1": {
+        "task": "minimally overt",
+        "calibrated with": "backup_calibrated_1"
+    },
+    "backup_online_2": {
+        "task": "overt",
+        "calibrated with": "backup_calibrated_2"
+    }
+}

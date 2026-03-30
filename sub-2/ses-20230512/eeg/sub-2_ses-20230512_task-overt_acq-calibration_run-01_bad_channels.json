@@ -1,0 +1,25 @@
+{
+  "file_name": "backup_calibrated_2 (h5)",
+  "bad_by_nan": [],
+  "bad_by_flat": [],
+  "bad_by_deviation": [
+    79
+  ],
+  "bad_by_hf_noise": [],
+  "bad_by_correlation": [
+    25,
+    53,
+    79,
+    115,
+    118
+  ],
+  "bad_all": [
+    25,
+    53,
+    79,
+    115,
+    118
+  ],
+  "n_channels": 128,
+  "sfreq": 256
+}
