@@ -1,9 +1,0 @@
-{
-    "backup_calibrated_1": {
-        "task": "covert"
-    },
-    "backup_online_1": {
-        "task": "covert",
-        "calibrated with": "backup_calibrated_1"
-    }
-}
