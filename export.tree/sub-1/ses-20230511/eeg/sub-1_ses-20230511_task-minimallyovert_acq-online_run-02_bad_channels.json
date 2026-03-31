@@ -1,0 +1,19 @@
+{
+  "file_name": "backup_online_2 (h5)",
+  "bad_by_nan": [],
+  "bad_by_flat": [],
+  "bad_by_deviation": [],
+  "bad_by_hf_noise": [],
+  "bad_by_correlation": [
+    3,
+    59,
+    95
+  ],
+  "bad_all": [
+    3,
+    59,
+    95
+  ],
+  "n_channels": 128,
+  "sfreq": 256
+}
