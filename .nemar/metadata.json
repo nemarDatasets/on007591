@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Delineating neural contributions to EEG-based speech decoding",
-  "description": "This dataset comprises 128-channel EEG recordings acquired during speech production tasks involving overt, minimally overt, and covert speech conditions. Participants produced one of five color words, with each trial consisting of five repetitions. The dataset includes calibration and online real-time decoding sessions, along with supplementary physiological recordings (EOG, EMG, microphone) and trigger markers, designed to investigate neural contributions to EEG-based speech decoding.",
-  "methods_description": "EEG was recorded from 128 channels with a 10x preamp gain and converted to Volts (×1e-6). Participants performed speech production tasks under three conditions (overt, minimally overt, covert) producing one of five color words. Each trial consisted of 5 repetitions of the same word lasting 1.25 seconds per repetition. Additional channels recorded EOG, EMG from upper and lower orbicularis oris muscles, microphone input, and trial onset triggers. Data collection included both offline calibration sessions for decoder training and online sessions with real-time decoding.",
+  "description": "This dataset comprises 128-channel EEG recordings collected during a speech production paradigm designed to investigate neural correlates of overt, minimally overt, and covert speech. Participants produced one of five color words under each speech condition, with additional peripheral recordings including EOG, EMG, microphone, and display markers to support speech decoding analyses. The dataset includes both calibration sessions for decoder training and online sessions for real-time decoding evaluation.",
+  "methods_description": "128-channel EEG was recorded alongside bipolar EOG, EMG (upper and lower orbicularis oris), microphone, and display channels, plus a trigger channel marking trial onsets. Each trial consisted of 5 repetitions of a spoken color word (1.25 sec per repetition) under overt, minimally overt, or covert speech conditions. EEG channels were recorded with a 10x preamp gain, and raw values were converted to Volts (×1e-6).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -32,23 +32,28 @@
       "term": "speech decoding"
     },
     {
-      "term": "speech production"
+      "term": "covert speech"
     },
     {
-      "term": "motor imagery"
+      "term": "Speech Production Measurement",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013068"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
     },
     {
-      "term": "neural decoding"
+      "term": "brain-computer interface"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1101/2024.05.09.591996",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on007591",
@@ -70,7 +75,7 @@
     {
       "funder_name": "JST",
       "award_number": "JPMJMS2012",
-      "award_title": "Moonshot R&D Grant"
+      "award_title": "Moonshot R&D"
     }
   ],
   "resource_type_general": "Dataset",
